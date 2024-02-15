@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity ALU is 
+	generic (
+		data_size : integer : 16
+	);
+	port (
+		A : in std_logic_vector(data_size-1 downto 0);
+		B : in std_logic_vector(data_size-1 downto 0);
+		SelR : in std_logic_vector(2 downto 0); -- 3 bits donc 8 opérations possibles
+		R : out std_logic_vector(data_size-1 downto 0);
+		Status : out std_logic_vector(4 downto 0)
+	);
+end entity ALU;

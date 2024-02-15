@@ -1,0 +1,145 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do CPU_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:05:57 on Feb 13,2024
+# vcom -reportprogress 300 -93 -work work D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture archi_ALU of ALU
+# End time: 00:05:57 on Feb 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/RF.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:05:57 on Feb 13,2024
+# vcom -reportprogress 300 -93 -work work D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/RF.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RF
+# -- Compiling architecture archi_RF of RF
+# End time: 00:05:58 on Feb 13,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/Decode.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:05:58 on Feb 13,2024
+# vcom -reportprogress 300 -93 -work work D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/Decode.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decode
+# -- Compiling architecture archi_Decode of Decode
+# End time: 00:05:58 on Feb 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/Fetch.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:05:58 on Feb 13,2024
+# vcom -reportprogress 300 -93 -work work D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/Fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Fetch
+# -- Compiling architecture archi_Fetch of Fetch
+# End time: 00:05:58 on Feb 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/RAM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:05:58 on Feb 13,2024
+# vcom -reportprogress 300 -93 -work work D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/RAM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM
+# -- Compiling architecture archi_RAM of RAM
+# End time: 00:05:58 on Feb 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/ROM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:05:58 on Feb 13,2024
+# vcom -reportprogress 300 -93 -work work D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/ROM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM
+# -- Compiling architecture archi_ROM of ROM
+# End time: 00:05:58 on Feb 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/Stack.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:05:58 on Feb 13,2024
+# vcom -reportprogress 300 -93 -work work D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/Stack.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Stack
+# -- Compiling architecture archi_Stack of Stack
+# End time: 00:05:58 on Feb 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/CPU_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:05:58 on Feb 13,2024
+# vcom -reportprogress 300 -93 -work work D:/Users/teo/Documents/CS/2A/cours/architecture_des_systemes_numeriques/projet/CPU_Teo/CPU_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity CPU_tb
+# -- Compiling architecture bdf_type of CPU_tb
+# End time: 00:05:58 on Feb 13,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  CPU_tb
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" CPU_tb 
+# Start time: 00:05:58 on Feb 13,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cpu_tb(bdf_type)
+# Loading work.rf(archi_rf)
+# Loading work.alu(archi_alu)
+# Loading work.stack(archi_stack)
+# Loading work.decode(archi_decode)
+# Loading work.fetch(archi_fetch)
+# Loading work.rom(archi_rom)
+# Loading work.ram(archi_ram)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: teo  Hostname: TEO-INSPIRON  ProcessID: 12720
+#           Attempting to use alternate WLF file "./wlftdkdwqf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdkdwqf
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 15 us
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/Stack_inst
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /cpu_tb/ALU_inst
+# End time: 00:06:46 on Feb 13,2024, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 5

@@ -1,0 +1,78 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Decode_tb is
+end entity Decode_tb;
+
+architecture archi_Decode_tb of Decode_tb is
+
+	component Decode is
+		port (
+			clk : in std_logic;
+			inStack, inA, inB, inMem : in std_logic_vector(7 downto 0);
+			status: in std_logic;
+			instruction : in std_logic_vector(15 downto 0);
+			AddrDest, AddrRA, AddrRB : out std_logic_vector(2 downto 0);
+			EnStack, EnRF, EnMem, EnFetch : out std_logic;
+			outA, outB: out std_logic_vector(7 downto 0);
+			SelR : out std_logic_vector(1 downto 0);
+			rwStack, rwRF, rwMem : out std_logic;
+			address : out std_logic_vector(7 downto 0);
+			PC_load : out std_logic
+		);
+	end component Decode;
+	
+	signal clk : std_logic := '0';
+	signal inStack, inA, inB, inMem : std_logic_vector(7 downto 0);
+	signal status: std_logic;
+	signal instruction : std_logic_vector(15 downto 0);
+	signal AddrDest, AddrRA, AddrRB : std_logic_vector(2 downto 0);
+	signal EnStack, EnRF, EnMem, EnFetch : std_logic;
+	signal outA, outB: std_logic_vector(7 downto 0);
+	signal SelR : std_logic_vector(1 downto 0);
+	signal rwStack, rwRF, rwMem : std_logic;
+	signal address : std_logic_vector(7 downto 0);
+	signal PC_load : std_logic;
+	
+begin
+
+	inst_Decode : component Decode
+		port map(
+			clk => clk,
+			inStack => inStack, 
+			inA => inA,
+			inB => inB,
+			inMem => inMem,
+			status => status,
+			instruction => instruction,
+			AddrDest => AddrDest, 
+			AddrRA => AddrRA, 
+			AddrRB => AddrRB,
+			EnStack => EnStack,
+			EnRF => EnRF, 
+			EnMem => EnMem, 
+			EnFetch => EnFetch,
+			outA => outA,
+			outB => outB,
+			SelR => SelR,
+			rwStack => rwStack, 
+			rwRF => rwRF, 
+			rwMem => rwMem,
+			address => address,
+			PC_load => PC_load
+		);
+	
+	clk <= not clk after 10 ns;
+	
+	stimulus: process
+	begin
+		inStack <= "00000000"; 
+		inA <= "00000001";
+		inB <= "00000010";
+		inMem <= "00000000";
+		status <= '0';
+		instruction <= "0100000100010001";
+		wait;
+	end process;
+
+end architecture archi_Decode_tb;
